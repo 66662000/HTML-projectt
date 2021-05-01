@@ -1,0 +1,93 @@
+body
+{
+    background-image: url(vcbackgr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: unset;
+    background-attachment: fixed;
+    height: 1000px;
+    
+}
+img
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 250px;
+border-radius: 70%;
+border: 15px solid black;
+transition-duration: 500ms;
+transition-delay: 100ms;
+}
+a:hover
+{
+   
+    cursor: grabbing;
+   border-top: 3opx solid blueviolet;
+   
+}
+.titre
+{
+    color: white;
+    text-align: center;
+    
+}
+iframe
+{
+   margin-top: 100px;
+   border-radius: 50%;
+}
+.titre
+{
+    margin-top: 80px;
+}
+image:hover
+{
+    border-top: 10px solid dodgerblue;
+    border-bottom:10px solid  dodgerblue;
+}
+.header
+{
+    color: gainsboro;
+   font-size: 30px;
+   text-align: center;
+}
+footer
+{
+    color: aqua;
+    background-color: #111;
+}
+.droit
+{
+    float: right;
+    margin-top: 200px;
+    margin-right: 250px;
+    opacity: .6;
+  
+}
+.gauche
+{
+    float: left;
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 150px ;
+  
+  
+    opacity: .6;
+    
+}
+.droit li
+{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.sci a
+{
+    text-decoration: none;
+
+}
+.sci a:hover
+{
+    color: chartreuse;
+}

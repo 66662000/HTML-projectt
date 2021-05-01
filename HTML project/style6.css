@@ -1,0 +1,48 @@
+body
+{
+    background-image: url(vcbackgr.png);
+    background-size: cover;
+    font-family: Arial;
+    color: white;
+    background-attachment: fixed;
+    height: 1000px;
+}
+h1
+{
+    font-size: 55px;
+    font-family: arial;
+    color: white;
+}
+ol
+{
+    font-size: 20px;
+    color: white;
+
+}
+ol li
+{
+    margin: 20px;
+}
+.home
+{
+    background-color: rgb(10, 37, 110);
+   display: inline-block;
+   border-radius: 70px;
+   margin-top: 350px;
+   background-size: 60px;
+}
+.home a
+{
+    text-decoration: none;
+    color: white;
+}
+.home a:hover
+{
+    cursor: grabbing;
+    background-color: turquoise;
+    border-radius: 60px;
+}
+span
+{
+    color: yellowgreen;
+}
